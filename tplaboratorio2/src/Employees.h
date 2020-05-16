@@ -1,12 +1,12 @@
 /*
- * ArrayEmployees.h
+ *  Employees.h
  *
  *  Created on: 13 may. 2020
  *      Author: Eugenia
  */
 
-#ifndef ARRAYEMPLOYEES_H_
-#define ARRAYEMPLOYEES_H_
+#ifndef EMPLOYEES_H_
+#define EMPLOYEES_H_
 
 #define NAME_LEN 51
 #define LASTNAME_LEN 51
@@ -33,4 +33,4 @@ int printEmployees(Employee* list, int length);
 int modifyEmployee(Employee* array,int len, int index);
 int imprimeTotalSalariosYSuPromedio(Employee* list,int len);
 
-#endif /* ARRAYEMPLOYEES_H_ */
+#endif /* EMPLOYEES_H_ */

@@ -1,16 +1,17 @@
 /*
- * ArrayEmployees.c
+ * Employees.c
  *
  *  Created on: 13 may. 2020
  *      Author: Eugenia
  */
+
+#include "Employees.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include "utn.h"
-#include "ArrayEmployees.h"
 
 
 /** \brief  To indicate that all position in the array are empty,
